@@ -54,6 +54,7 @@ li:hover {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  flex: 1;
 }
 
 .section1 {
@@ -162,6 +163,7 @@ li:hover {
   max-height: 30vh;
   min-height: auto;
   min-width: fit-content;
+  overflow: hidden;
 }
 
 .service:hover {
