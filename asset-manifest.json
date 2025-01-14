@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/My_personal_portfolio_website/static/css/main.57f71740.css",
-    "main.js": "/My_personal_portfolio_website/static/js/main.4e742994.js",
-    "static/js/453.58ff844f.chunk.js": "/My_personal_portfolio_website/static/js/453.58ff844f.chunk.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/My_personal_portfolio_website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/My_personal_portfolio_website/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/My_personal_portfolio_website/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/My_personal_portfolio_website/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/My_personal_portfolio_website/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/Tedla.jpg": "/My_personal_portfolio_website/static/media/Tedla.afec6062482d7dd6ff51.jpg",
-    "index.html": "/My_personal_portfolio_website/index.html",
-    "main.57f71740.css.map": "/My_personal_portfolio_website/static/css/main.57f71740.css.map",
-    "main.4e742994.js.map": "/My_personal_portfolio_website/static/js/main.4e742994.js.map",
-    "453.58ff844f.chunk.js.map": "/My_personal_portfolio_website/static/js/453.58ff844f.chunk.js.map"
+    "main.css": "/My_personal_portfolio_web/static/css/main.ff5ed9c4.css",
+    "main.js": "/My_personal_portfolio_web/static/js/main.dd69e037.js",
+    "static/js/453.58ff844f.chunk.js": "/My_personal_portfolio_web/static/js/453.58ff844f.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/My_personal_portfolio_web/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/My_personal_portfolio_web/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/My_personal_portfolio_web/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/My_personal_portfolio_web/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/My_personal_portfolio_web/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/Tedla.jpg": "/My_personal_portfolio_web/static/media/Tedla.afec6062482d7dd6ff51.jpg",
+    "index.html": "/My_personal_portfolio_web/index.html",
+    "main.ff5ed9c4.css.map": "/My_personal_portfolio_web/static/css/main.ff5ed9c4.css.map",
+    "main.dd69e037.js.map": "/My_personal_portfolio_web/static/js/main.dd69e037.js.map",
+    "453.58ff844f.chunk.js.map": "/My_personal_portfolio_web/static/js/453.58ff844f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57f71740.css",
-    "static/js/main.4e742994.js"
+    "static/css/main.ff5ed9c4.css",
+    "static/js/main.dd69e037.js"
   ]
 }
