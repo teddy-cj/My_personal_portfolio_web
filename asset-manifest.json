@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My_personal_portfolio_web/static/css/main.6edd085e.css",
+    "main.css": "/My_personal_portfolio_web/static/css/main.a1eb415b.css",
     "main.js": "/My_personal_portfolio_web/static/js/main.31e40651.js",
     "static/js/453.58ff844f.chunk.js": "/My_personal_portfolio_web/static/js/453.58ff844f.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/My_personal_portfolio_web/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -10,12 +10,12 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/My_personal_portfolio_web/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/Tedla.jpg": "/My_personal_portfolio_web/static/media/Tedla.afec6062482d7dd6ff51.jpg",
     "index.html": "/My_personal_portfolio_web/index.html",
-    "main.6edd085e.css.map": "/My_personal_portfolio_web/static/css/main.6edd085e.css.map",
+    "main.a1eb415b.css.map": "/My_personal_portfolio_web/static/css/main.a1eb415b.css.map",
     "main.31e40651.js.map": "/My_personal_portfolio_web/static/js/main.31e40651.js.map",
     "453.58ff844f.chunk.js.map": "/My_personal_portfolio_web/static/js/453.58ff844f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6edd085e.css",
+    "static/css/main.a1eb415b.css",
     "static/js/main.31e40651.js"
   ]
 }
