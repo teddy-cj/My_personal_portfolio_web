@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 .App {
   position: relative;
@@ -649,6 +650,10 @@ footer {
 
 
 @media (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
+  
   .navbar {
     position: relative;
     height: auto;
@@ -752,13 +757,16 @@ footer {
   }
 
   .contact {
-    padding: 20px;
+    padding: 0px;
     margin-left: 15px;
+  }
+  .contact .container{
+    gap: 0;
   }
 
   .contactForm {
     width: 40%;
-    padding: 40px;
+    padding: 10px;
   }
 
   .contact .content h2 {
