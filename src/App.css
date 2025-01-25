@@ -586,9 +586,29 @@ footer {
 }
 .footer-aboutme{
   background-color: #1f1f2e;
-  padding: 5px;
+  padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 14px 28px rgba(47, 46, 46, 0.25), 0 10px 10px rgb(93, 92, 92)
+  text-align: center;
+  max-width: 100%;
+  border: 5px solid transparent;
+  animation: borderRotate 4s linear infinite;
+}
+@keyframes borderRotate {
+  0% {
+      border-image: linear-gradient(0deg, red, blue, green, yellow) 1;
+  }
+  25% {
+      border-image: linear-gradient(90deg, red, blue, green, yellow) 1;
+  }
+  50% {
+      border-image: linear-gradient(180deg, red, blue, green, yellow) 1;
+  }
+  75% {
+      border-image: linear-gradient(270deg, red, blue, green, yellow) 1;
+  }
+  100% {
+      border-image: linear-gradient(360deg, red, blue, green, yellow) 1;
+  }
 }
 .footeradress {
   padding: 20px;
@@ -733,6 +753,7 @@ footer {
 
   .contact {
     padding: 20px;
+    margin-left: 15px;
   }
 
   .contactForm {
@@ -760,6 +781,11 @@ footer {
   }
   .service {
     display: block;
+  }
+  .footer-aboutme p{
+    text-align: center;
+    flex: 1;  /* Distributes equal width to each block */
+    
   }
   .footernav h3{
     min-width: fit-content;

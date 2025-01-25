@@ -94,7 +94,7 @@ Let’s build something incredible together!</div>
           
           <div  className="footeraboutme">
             <div className="footer-aboutme">
-            <p align="left">I create beautiful websites your users will love. I work with you from start to finish to make sure your goals are reached and your users are happy.</p>
+            I create beautiful websites your users will love. I work with you from start to finish to make sure your goals are reached and your users are happy.
             </div>
 
           </div> 
