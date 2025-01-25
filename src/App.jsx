@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useEffect, useRef} from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Services from "./components/Service";
+import Skills from "./components/Skills";
 import Contact from "./components/contact";
-import {useRef} from "react";
+
 
 
 const App = () => {
@@ -27,8 +27,13 @@ const App = () => {
       slideRef.current.insertBefore(items[items.length - 1], items[0]);
       }
   };
-
-
+  useEffect(() => {
+    const currentYear = new Date().getFullYear();
+    const yearElement = document.getElementById("year");
+    if (yearElement) {
+      yearElement.textContent = currentYear;
+    }
+  }, []);
 
   
 
@@ -54,13 +59,14 @@ const App = () => {
             <div className="myImage">
               <img className="myimage" src={require("./image/Tedla.jpg")} alt="" />
             </div>
-            <div className="aboutMe">HaleLorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+            <div className="aboutMe">
+            <h1>About Me</h1>Hi, I'm Tedla Tesfaye, a passionate web developer from Ethiopia, currently pursuing my bachelor's degree at African Leadership University. With over two years of experience in front-end development, I specialize in crafting intuitive and visually appealing websites using HTML, CSS, JavaScript, React, and other cutting-edge technologies.
 
-“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+I’ve had the privilege of working with various companies, delivering solutions that meet user needs while aligning with business goals. Beyond web development, I’m deeply intrigued by the potential of machine learning and aspire to specialize in this transformative field in the near future.
 
-The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless filler text can be very useful when the focus is meant to be on design, not content.
+Creativity, collaboration, and leadership are at the heart of my work style. Whether I’m working independently or as part of a team, I thrive on solving problems, communicating ideas effectively, and driving projects to success.
 
-The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum. </div>
+Let’s build something incredible together!</div>
         </div>
       </section> 
       
@@ -68,48 +74,7 @@ The passage experienced a surge in popularity during the 1960s when Letraset use
       {/* Section 3 */}
       
       <section id="section3" className="section section3">
-        <h1>Everything you need for a perfect website smha kes makodnedh jdha</h1>
-        
-        <main className="mainService">
-
-        <Services
-            head="Website Review"
-            description="I make sure your website is performing its best by thoroughly
-                reviewing it before making any changes."
-          />
-
-          <Services
-            head="Business Strategy"
-            description="We discuss what you are trying to achieve and place goals on your
-                website planning."
-          />
-
-          <Services
-            head="User Experience Design"
-            description="I design your website to be as easy to use as possible while
-                guiding users toward the end goal."
-          />
-
-          <Services
-            head="Tailored Development"
-            description="I build with your goals in mind, whether you want a simple
-                flexible website or a SaaS product."
-          />
-
-          <Services
-            head="Tailored Development"
-            description="I build with your goals in mind, whether you want a simple
-                flexible website or a SaaS product."
-          />
-
-          <Services
-            head="Tailored Development"
-            description="I build with your goals in mind, whether you want a simple
-                flexible website or a SaaS product."
-          />
-        </main>
-          
-        
+        <Skills/>
       </section>
 
       {/* Section 4 */}
@@ -119,30 +84,69 @@ The passage experienced a surge in popularity during the 1960s when Letraset use
 
       <footer>
         <div className="footerone">
-          <img className="footerimage" src={require("./image/Tedla.jpg")} alt="" />
+          <div className="footerimage-container">
+           <img className="footerimage" src={require("./image/Tedla.jpg")} alt="" />
+          </div>
+          
           <h2>Tedla Tesfaye</h2>
         </div>
         <div className="footertwo">
-          <p>
-            I create beautiful websites your users will love. I work with you from start to finish to make sure your goals are reached and your users are happy.
-          </p>
+          
+          <div  className="footeraboutme">
+            <div className="footer-aboutme">
+            <p align="left">I create beautiful websites your users will love. I work with you from start to finish to make sure your goals are reached and your users are happy.</p>
+            </div>
+
+          </div> 
           <div className="footernav">
           <ul>
-            <h3>Quick Links</h3>
+            <h3>Quick&nbsp;Links</h3>
+                    <li onClick={() => scrollToSection("section1")}>Home</li>
+                    <li onClick={() => scrollToSection("section2")}>About</li>
+                    <li onClick={() => scrollToSection("section3")}>Services</li>
                     <li onClick={() => scrollToSection("section1")}>Home</li>
                     <li onClick={() => scrollToSection("section2")}>About</li>
                     <li onClick={() => scrollToSection("section3")}>Services</li>
           </ul>
           </div>
+          <div className="footeradress">
+            <h1>Address</h1>
+            <h3>Rwanda,&nbsp;Kigali</h3>
+          </div>
         </div>
         <div className="footericon">
-        <i className="fa fa-envelope-o" aria-hidden="true"></i>
-        <i className="fa fa-linkedin" aria-hidden="true"></i>
-        <i className="fa fa-github" aria-hidden="true"></i>
-        <i className="fa fa-instagram" aria-hidden="true"></i>
-        <i className="fa fa-facebook" aria-hidden="true"></i>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=teddy825@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", textDecoration: 'none'}}
+                            ><i className="fa fa-envelope-o" aria-hidden="true"></i></a>
+        <a className="icon"
+                            href="https://www.linkedin.com/in/tedla-tesfaye-138834298?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BuAbm%2Fie9RcKNmvkJwG513Q%3D%3D"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", textDecoration: 'none'}}
+                            >
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a className="icon"
+                            href="https://github.com/teddy-cj"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", textDecoration: 'none'}}
+                            >
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+
+                            <a className="icon"
+                            href="https://www.instagram.com/teddy_ccj/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white", textDecoration: 'none'}}
+                            >
+                                <i className="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
         </div>
-        <div>© 2024 All rights reserved.</div>
+        <div>&copy;<span id="year"></span> All rights reserved.</div>
       </footer>
     </div>
   );

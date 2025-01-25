@@ -1,5 +1,5 @@
 {
-  "homepage": "https://teddy-cj.github.io/My_personal_portofolio_website",
+  "homepage": "https://teddy-cj.github.io/My_personal_portfolio_web",
   "name": "scrolling-website",
   "version": "0.1.0",
   "private": true,
@@ -7,13 +7,16 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@web3forms/react": "^1.1.3",
     "font-awesome": "^4.7.0",
     "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.2",
     "react-icons": "^5.4.0",
     "react-router-dom": "^7.0.2",
     "react-scripts": "5.0.1",
+    "sweetalert2": "^11.15.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
